@@ -5,9 +5,7 @@
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
-    <Resources>
-        <File name="scenario_noIP" src="behavior_1/scenario_noIP.txt" />
-    </Resources>
+    <Resources />
     <Topics />
     <IgnoredPaths>
         <Path src=".metadata" />

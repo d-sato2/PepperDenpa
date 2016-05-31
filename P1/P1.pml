@@ -5,7 +5,10 @@
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
-    <Resources />
+    <Resources>
+        <File name="DenpaIntro" src="behavior_1/DenpaIntro.txt" />
+        <File name="DenpaLast" src="behavior_1/DenpaLast.txt" />
+    </Resources>
     <Topics />
     <IgnoredPaths>
         <Path src=".metadata" />

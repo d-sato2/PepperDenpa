@@ -1,0 +1,8 @@
+﻿^start(animations/Stand/Gestures/Yes_1) ^wait(animations/Stand/Gestures/Yes_1)@^start(animations/Stand/Gestures/Yes_1) ^wait(animations/Stand/Gestures/Yes_1)
+^start(animations/Stand/Gestures/Hey_1) \vct=180\、\rspd=80\今日は、僕たちのことをこんなにたくさん紹介してもらえて、すっごく嬉しかったです ^wait(animations/Stand/Gestures/Hey_1)@
+@^start(animations/Stand/Gestures/Hey_2) \vct=130\、\rspd=80\ところで、これから僕たちが、もっともっと活躍できるような、そんな未来は来るのかなぁ？ ^wait(animations/Stand/Gestures/Hey_2)
+^start(animations/Stand/Gestures/Excited_1) \vct=180\、\rspd=80\うーん、、、あ、大丈夫、きっと来るよ！ ^wait(animations/Stand/Gestures/Excited_1)@
+@^start(animations/Stand/Gestures/Salute_1)  \vct=180\、\rspd=80\ええ？あー、、、うん、そうだね ^wait(animations/Stand/Gestures/Salute_1)
+^start(animations/Stand/Gestures/Excited_1) \vct=180\、\rspd=80\だって、きっと、今ここにいるみなさんが、そんな未来を作っていってくれるでしょうから ^wait(animations/Stand/Gestures/Excited_1)@^start(animations/Stand/Gestures/Excited_1) \vct=180\、\rspd=80\だって、きっと、今ここにいるみなさんが、そんな未来を作っていってくれるでしょうから ^wait(animations/Stand/Gestures/Excited_1)
+^start(animations/Stand/Gestures/Salute_1)  \vct=180\、\rspd=80\みなさん、これからもよろしくお願いいたします ^wait(animations/Stand/Gestures/Salute_1)@^start(animations/Stand/Gestures/Salute_1)  \vct=180\、\rspd=80\みなさん、これからもよろしくお願いいたします ^wait(animations/Stand/Gestures/Salute_1)
+^start(animations/Stand/Gestures/Salute_1)  \vct=180\、\rspd=80\ご清聴、ありがとうございました！ ^wait(animations/Stand/Gestures/Salute_1)@^start(animations/Stand/Gestures/Salute_1)  \vct=180\、\rspd=80\ご清聴、ありがとうございました！ ^wait(animations/Stand/Gestures/Salute_1)
