@@ -11,6 +11,7 @@
         <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックスBehaviorの終了時に信号を送る。" id="4" />
+        <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
         <Timeline enable="0">
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
@@ -1236,6 +1237,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックス動作の終了時に信号を送る。" id="4" />
+                                                <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                                 <Timeline enable="0">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
@@ -1683,19 +1685,20 @@ class MyClass(GeneratedClass):
                                                                 <Link inputowner="3" indexofinput="3" outputowner="230" indexofoutput="4" />
                                                                 <Link inputowner="230" indexofinput="2" outputowner="6" indexofoutput="4" />
                                                                 <Link inputowner="6" indexofinput="2" outputowner="2" indexofoutput="3" />
+                                                                <Link inputowner="0" indexofinput="5" outputowner="0" indexofoutput="2" />
                                                             </Diagram>
                                                         </BehaviorKeyframe>
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
                                             <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
-                                            <Link inputowner="0" indexofinput="3" outputowner="0" indexofoutput="2" />
+                                            <Link inputowner="0" indexofinput="3" outputowner="1" indexofoutput="5" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="1" id="1" localization="8" tooltip="Enter description here" x="58" y="22">
+                        <Box name="1" id="1" localization="8" tooltip="Enter description here" x="54" y="26">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1710,7 +1713,7 @@ class MyClass(GeneratedClass):
                                 <BehaviorLayer name="behavior_layer1">
                                     <BehaviorKeyframe name="keyframe1" index="1">
                                         <Diagram>
-                                            <Box name="2P2観光案内" id="1" localization="8" tooltip="" x="42" y="9">
+                                            <Box name="2P2観光案内" id="1" localization="8" tooltip="" x="38" y="32">
                                                 <bitmap>media/images/box/box-diagram.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -1721,6 +1724,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックス動作の終了時に信号を送る。" id="4" />
+                                                <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                                 <Timeline enable="0">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
@@ -2168,6 +2172,7 @@ class MyClass(GeneratedClass):
                                                                 <Link inputowner="3" indexofinput="3" outputowner="230" indexofoutput="4" />
                                                                 <Link inputowner="230" indexofinput="2" outputowner="6" indexofoutput="4" />
                                                                 <Link inputowner="6" indexofinput="2" outputowner="2" indexofoutput="3" />
+                                                                <Link inputowner="0" indexofinput="5" outputowner="0" indexofoutput="2" />
                                                             </Diagram>
                                                         </BehaviorKeyframe>
                                                     </BehaviorLayer>
@@ -5580,13 +5585,13 @@ class MyClass(GeneratedClass):
                                                 </Timeline>
                                             </Box>
                                             <Link inputowner="0" indexofinput="4" outputowner="6" indexofoutput="4" />
-                                            <Link inputowner="0" indexofinput="3" outputowner="0" indexofoutput="2" />
+                                            <Link inputowner="0" indexofinput="3" outputowner="1" indexofoutput="5" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="3" id="2" localization="8" tooltip="Enter description here" x="279" y="80">
+                        <Box name="3" id="2" localization="8" tooltip="Enter description here" x="277" y="75">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -5612,6 +5617,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックス動作の終了時に信号を送る。" id="4" />
+                                                <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                                 <Timeline enable="0">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
@@ -6033,19 +6039,20 @@ class MyClass(GeneratedClass):
                                                                 <Link inputowner="0" indexofinput="4" outputowner="3" indexofoutput="4" />
                                                                 <Link inputowner="3" indexofinput="3" outputowner="4" indexofoutput="4" />
                                                                 <Link inputowner="4" indexofinput="2" outputowner="2" indexofoutput="3" />
+                                                                <Link inputowner="0" indexofinput="5" outputowner="0" indexofoutput="2" />
                                                             </Diagram>
                                                         </BehaviorKeyframe>
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
                                             <Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="4" />
-                                            <Link inputowner="0" indexofinput="3" outputowner="0" indexofoutput="2" />
+                                            <Link inputowner="0" indexofinput="3" outputowner="5" indexofoutput="5" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="4" id="3" localization="8" tooltip="Enter description here" x="393" y="109">
+                        <Box name="4" id="3" localization="8" tooltip="Enter description here" x="433" y="109">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -6071,6 +6078,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックス動作の終了時に信号を送る。" id="4" />
+                                                <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                                 <Timeline enable="0">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
@@ -6477,6 +6485,7 @@ class MyClass(GeneratedClass):
                                                                 <Link inputowner="0" indexofinput="4" outputowner="3" indexofoutput="4" />
                                                                 <Link inputowner="3" indexofinput="3" outputowner="230" indexofoutput="4" />
                                                                 <Link inputowner="230" indexofinput="2" outputowner="2" indexofoutput="3" />
+                                                                <Link inputowner="0" indexofinput="5" outputowner="0" indexofoutput="2" />
                                                             </Diagram>
                                                         </BehaviorKeyframe>
                                                     </BehaviorLayer>
@@ -6920,13 +6929,13 @@ class MyClass(GeneratedClass):
                                                 </Timeline>
                                             </Box>
                                             <Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" />
-                                            <Link inputowner="0" indexofinput="3" outputowner="0" indexofoutput="2" />
+                                            <Link inputowner="0" indexofinput="3" outputowner="1" indexofoutput="5" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="6" id="5" localization="8" tooltip="Enter description here" x="171" y="174">
+                        <Box name="6" id="5" localization="8" tooltip="Enter description here" x="183" y="168">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -6952,6 +6961,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックス動作の終了時に信号を送る。" id="4" />
+                                                <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                                 <Timeline enable="0">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
@@ -7354,19 +7364,20 @@ class MyClass(GeneratedClass):
                                                                 <Link inputowner="3" indexofinput="3" outputowner="89" indexofoutput="4" />
                                                                 <Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" />
                                                                 <Link inputowner="0" indexofinput="4" outputowner="3" indexofoutput="4" />
+                                                                <Link inputowner="0" indexofinput="5" outputowner="0" indexofoutput="2" />
                                                             </Diagram>
                                                         </BehaviorKeyframe>
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
                                             <Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" />
-                                            <Link inputowner="0" indexofinput="3" outputowner="0" indexofoutput="2" />
+                                            <Link inputowner="0" indexofinput="3" outputowner="2" indexofoutput="5" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="7" id="6" localization="8" tooltip="Enter description here" x="284" y="192">
+                        <Box name="7" id="6" localization="8" tooltip="Enter description here" x="313" y="189">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7392,6 +7403,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックス動作の終了時に信号を送る。" id="4" />
+                                                <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                                 <Timeline enable="0">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
@@ -7794,19 +7806,20 @@ class MyClass(GeneratedClass):
                                                                 <Link inputowner="0" indexofinput="4" outputowner="3" indexofoutput="4" />
                                                                 <Link inputowner="89" indexofinput="2" outputowner="2" indexofoutput="3" />
                                                                 <Link inputowner="3" indexofinput="3" outputowner="89" indexofoutput="4" />
+                                                                <Link inputowner="0" indexofinput="5" outputowner="0" indexofoutput="2" />
                                                             </Diagram>
                                                         </BehaviorKeyframe>
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
                                             <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
-                                            <Link inputowner="0" indexofinput="3" outputowner="0" indexofoutput="2" />
+                                            <Link inputowner="0" indexofinput="3" outputowner="1" indexofoutput="5" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="5_2" id="10" localization="8" tooltip="Enter description here" x="54" y="129">
+                        <Box name="5_2" id="10" localization="8" tooltip="Enter description here" x="59" y="127">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7832,6 +7845,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="ボックス動作の終了時に信号を送る。" id="4" />
+                                                <Output name="output" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                                 <Timeline enable="0">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
@@ -8279,6 +8293,7 @@ class MyClass(GeneratedClass):
                                                                 <Link inputowner="3" indexofinput="3" outputowner="230" indexofoutput="4" />
                                                                 <Link inputowner="230" indexofinput="2" outputowner="6" indexofoutput="4" />
                                                                 <Link inputowner="6" indexofinput="2" outputowner="2" indexofoutput="3" />
+                                                                <Link inputowner="0" indexofinput="5" outputowner="0" indexofoutput="2" />
                                                             </Diagram>
                                                         </BehaviorKeyframe>
                                                     </BehaviorLayer>
@@ -8721,8 +8736,8 @@ class MyClass(GeneratedClass):
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
-                                            <Link inputowner="0" indexofinput="3" outputowner="0" indexofoutput="2" />
                                             <Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" />
+                                            <Link inputowner="0" indexofinput="3" outputowner="1" indexofoutput="5" />
                                         </Diagram>
                                     </BehaviorKeyframe>
                                 </BehaviorLayer>
@@ -10802,14 +10817,17 @@ class MyClass(GeneratedClass):
                         <Link inputowner="8" indexofinput="2" outputowner="2" indexofoutput="4" />
                         <Link inputowner="8" indexofinput="3" outputowner="3" indexofoutput="3" />
                         <Link inputowner="8" indexofinput="2" outputowner="3" indexofoutput="4" />
-                        <Link inputowner="6" indexofinput="2" outputowner="5" indexofoutput="3" />
                         <Link inputowner="8" indexofinput="3" outputowner="12" indexofoutput="5" />
                         <Link inputowner="8" indexofinput="3" outputowner="6" indexofoutput="3" />
                         <Link inputowner="10" indexofinput="2" outputowner="3" indexofoutput="4" />
                         <Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" />
                         <Link inputowner="8" indexofinput="2" outputowner="10" indexofoutput="4" />
-                        <Link inputowner="8" indexofinput="2" outputowner="5" indexofoutput="4" />
                         <Link inputowner="8" indexofinput="2" outputowner="6" indexofoutput="4" />
+                        <Link inputowner="0" indexofinput="5" outputowner="1" indexofoutput="3" />
+                        <Link inputowner="8" indexofinput="3" outputowner="10" indexofoutput="3" />
+                        <Link inputowner="6" indexofinput="2" outputowner="5" indexofoutput="4" />
+                        <Link inputowner="8" indexofinput="2" outputowner="5" indexofoutput="4" />
+                        <Link inputowner="8" indexofinput="3" outputowner="5" indexofoutput="3" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>
