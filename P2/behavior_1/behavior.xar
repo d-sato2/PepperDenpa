@@ -2178,7 +2178,7 @@ class MyClass(GeneratedClass):
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
-                                            <Box name="4P2観光客に" id="2" localization="8" tooltip="" x="138" y="42">
+                                            <Box name="4P2観光客に" id="2" localization="8" tooltip="" x="141" y="58">
                                                 <bitmap>media/images/box/box-diagram.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -3056,7 +3056,7 @@ class MyClass(GeneratedClass):
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
-                                            <Box name="6P2僕らには" id="3" localization="8" tooltip="" x="231" y="69">
+                                            <Box name="6P2僕らには" id="3" localization="8" tooltip="" x="233" y="79">
                                                 <bitmap>media/images/box/box-diagram.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -5070,7 +5070,7 @@ class MyClass(GeneratedClass):
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
-                                            <Box name="8P2 はーい" id="7" localization="8" tooltip="" x="324" y="104">
+                                            <Box name="8P2 はーい" id="7" localization="8" tooltip="" x="325" y="107">
                                                 <bitmap>media/images/box/box-diagram.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -6491,7 +6491,7 @@ class MyClass(GeneratedClass):
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
-                                            <Box name="4P2得意" id="2" localization="8" tooltip="" x="152" y="67">
+                                            <Box name="4P2得意" id="2" localization="8" tooltip="" x="170" y="50">
                                                 <bitmap>media/images/box/box-diagram.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -8299,7 +8299,7 @@ class MyClass(GeneratedClass):
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
-                                            <Box name="4P2だから" id="2" localization="8" tooltip="" x="159" y="53">
+                                            <Box name="4P2だから" id="2" localization="8" tooltip="" x="179" y="53">
                                                 <bitmap>media/images/box/box-diagram.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -8755,7 +8755,7 @@ class MyClass(GeneratedClass):
                             <Input name="RemoteSynchronizer/to_B" type="0" type_size="1" nature="4" stm_value_name="RemoteSynchronizer/to_B" inner="1" tooltip="RemoteSynchronizer/to_B desc" id="3" />
                             <Input name="input" type="1" type_size="1" nature="3" inner="0" tooltip="" id="4" />
                             <Output name="AnimatedSayText_onStopped" type="1" type_size="1" nature="2" inner="0" tooltip="This output has been automatically generated&#x0A;by converting several boxes into a single box." id="5" />
-                            <Parameter name="masterIP" inherits_from_parent="1" content_type="3" value="192.168.10.17" default_value="192.168.10.24" custom_choice="0" tooltip="" id="6" />
+                            <Parameter name="masterIP" inherits_from_parent="1" content_type="3" value="192.168.43.26" default_value="192.168.10.24" custom_choice="0" tooltip="" id="6" />
                             <Timeline enable="0">
                                 <BehaviorLayer name="behavior_layer1">
                                     <BehaviorKeyframe name="keyframe1" index="1">

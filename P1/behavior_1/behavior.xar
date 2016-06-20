@@ -5589,7 +5589,7 @@ class MyClass(GeneratedClass):
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="2" id="1" localization="8" tooltip="Enter description here" x="179" y="45">
+                        <Box name="2" id="1" localization="8" tooltip="Enter description here" x="178" y="36">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -9796,7 +9796,7 @@ class MyClass(GeneratedClass):
                                                     </BehaviorLayer>
                                                 </Timeline>
                                             </Box>
-                                            <Box name="6P1中国語か" id="4" localization="8" tooltip="" x="165" y="118">
+                                            <Box name="6P1中国語か" id="4" localization="8" tooltip="" x="172" y="125">
                                                 <bitmap>media/images/box/box-diagram.png</bitmap>
                                                 <script language="4">
                                                     <content>
@@ -10827,7 +10827,7 @@ class MyClass(GeneratedClass):
                             <Input name="input" type="1" type_size="1" nature="3" inner="0" tooltip="" id="6" />
                             <Output name="after_second_onStopped" type="1" type_size="1" nature="2" inner="0" tooltip="This output has been automatically generated&#x0A;by converting several boxes into a single box." id="7" />
                             <Parameter name="masterIP" inherits_from_parent="0" content_type="3" value="127.0.0.1" default_value="127.0.0.1" custom_choice="0" tooltip="" id="8" />
-                            <Parameter name="clientIP" inherits_from_parent="0" content_type="3" value="192.168.10.7" default_value="192.168.10.23" custom_choice="0" tooltip="" id="9" />
+                            <Parameter name="clientIP" inherits_from_parent="0" content_type="3" value="192.168.43.31" default_value="192.168.10.23" custom_choice="0" tooltip="" id="9" />
                             <Parameter name="scenarioFile" inherits_from_parent="0" content_type="3" value="/DenpaIntro.txt" default_value="/scenario_noIP.txt" custom_choice="0" tooltip="" id="10" />
                             <Timeline enable="0">
                                 <BehaviorLayer name="behavior_layer1">
@@ -11101,7 +11101,7 @@ class MyClass(GeneratedClass):
                             <Input name="input" type="1" type_size="1" nature="3" inner="0" tooltip="" id="6" />
                             <Output name="after_second_onStopped" type="1" type_size="1" nature="2" inner="0" tooltip="This output has been automatically generated&#x0A;by converting several boxes into a single box." id="7" />
                             <Parameter name="masterIP" inherits_from_parent="0" content_type="3" value="127.0.0.1" default_value="127.0.0.1" custom_choice="0" tooltip="" id="8" />
-                            <Parameter name="clientIP" inherits_from_parent="0" content_type="3" value="192.168.10.7" default_value="192.168.10.23" custom_choice="0" tooltip="" id="9" />
+                            <Parameter name="clientIP" inherits_from_parent="0" content_type="3" value="192.168.43.31" default_value="192.168.10.23" custom_choice="0" tooltip="" id="9" />
                             <Parameter name="scenarioFile" inherits_from_parent="0" content_type="3" value="/DenpaLast.txt" default_value="/scenario_noIP.txt" custom_choice="0" tooltip="" id="10" />
                             <Timeline enable="0">
                                 <BehaviorLayer name="behavior_layer1">
